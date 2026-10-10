@@ -1,0 +1,105 @@
+:root {
+  --bg: #0f172a;
+  --card: #1e293b;
+  --accent: #38bdf8;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: var(--card);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 1.25rem;
+}
+
+.nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin-left: 1.25rem;
+}
+
+.nav a:hover {
+  color: var(--accent);
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: var(--muted);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+.btn {
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.counter {
+  margin-top: 1rem;
+  color: var(--muted);
+}
+
+.section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.section h2 {
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.section a {
+  color: var(--accent);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted);
+  border-top: 1px solid var(--card);
+}
