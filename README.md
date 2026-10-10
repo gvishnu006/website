@@ -1,13 +1,23 @@
 # My Website
 
-A simple, responsive static website built with plain HTML, CSS, and JavaScript.
+A simple, fast, and responsive static website built with HTML, CSS, and JavaScript.
 
-## Features
+## Pages
 
-- Responsive layout
-- Clean modern styling
-- Interactive navigation
+- `index.html` — Home
+- `about.html` — About
+- `contact.html` — Contact
 
-## Getting Started
+## Usage
 
-Open `index.html` in your browser.
+Open `index.html` in any browser, or serve the folder:
+
+```bash
+python -m http.server 8000
+# or
+npx serve .
+```
+
+## Deployment
+
+Can be deployed to GitHub Pages or any static file host.
