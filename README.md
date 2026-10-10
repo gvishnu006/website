@@ -20,4 +20,10 @@ npx serve .
 
 ## Deployment
 
-Can be deployed to GitHub Pages or any static file host.
+Can be deployed to GitHub Pages or any static file host:
+
+```bash
+git push origin main
+```
+
+Then enable GitHub Pages in the repository settings (use the `main` branch).
